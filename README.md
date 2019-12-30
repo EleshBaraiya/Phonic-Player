@@ -18,4 +18,4 @@ Add the dependency
 	
 [![](https://jitpack.io/v/EleshBaraiya/Phonic-Player.svg)](https://jitpack.io/#EleshBaraiya/Phonic-Player)
 
-![alt text](https://github.com/EleshBaraiya/Live-Camera-Color-Picker/blob/master/phonic_player.png)
+![alt text](https://github.com/EleshBaraiya/Phonic-Player/blob/master/phonic_player.png)
