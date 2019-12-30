@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="audioDefaultColor">#7FC9A4</color>
+    <color name="audioProgressColor">#1C1E1E</color>
+    <color name="audioDownloadColor">#1C1E1E</color>
+    <color name="audioWhiteColor">#FFFFFF</color>
+</resources>

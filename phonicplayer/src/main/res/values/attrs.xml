@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomProgressBarAtt">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="defaultColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PhonicPlayerViewAtt">
+        <attr name="custom_layout" format="reference"/>
+        <attr name="is_in_list" format="boolean"/>
+    </declare-styleable>
+</resources>
