@@ -13,7 +13,7 @@ Add it in your root build.gradle at the end of repositories:
 Add the dependency
 
     dependencies {
-	        implementation 'com.github.EleshBaraiya:Phonic-Player:1.0'
+	        implementation 'com.github.EleshBaraiya:Phonic-Player:-SNAPSHOT'
 	}
 	
 [![](https://jitpack.io/v/EleshBaraiya/Phonic-Player.svg)](https://jitpack.io/#EleshBaraiya/Phonic-Player)
