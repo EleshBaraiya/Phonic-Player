@@ -8,7 +8,6 @@ import android.media.MediaMetadataRetriever
 import android.net.Uri
 import android.os.Build
 import android.os.Environment
-import android.os.StrictMode
 import android.util.AttributeSet
 import android.util.Log
 import android.util.SparseArray
@@ -87,7 +86,7 @@ class PhonicPlayerView : RelativeLayout {
             .obtainStyledAttributes(attrs, R.styleable.PhonicPlayerViewAtt, 0, 0)
         customLayout = ta.getResourceId(
             R.styleable.PhonicPlayerViewAtt_custom_layout,
-            R.layout.view_audio_player_normal
+            R.layout.view_audio_player_1
         )
     }
 
@@ -142,10 +141,10 @@ class PhonicPlayerView : RelativeLayout {
      */
     fun init(context: Context?) {
 
-//        val config = PRDownloaderConfig.newBuilder()
-//            .setDatabaseEnabled(true)
-//            .build()
-//        PRDownloader.initialize(context, config)
+        val config = PRDownloaderConfig.newBuilder()
+            .setDatabaseEnabled(true)
+            .build()
+        PRDownloader.initialize(context, config)
 
         mContext = context
         playerRootView = View.inflate(context, customLayout, this)
@@ -304,7 +303,7 @@ class PhonicPlayerView : RelativeLayout {
 
                 override fun onError(error: com.downloader.Error?) {
                     mCircleProgressBarDownload?.visibility = View.GONE
-                    System.out.println("===ERRORR=="+error)
+                    System.out.println("===ERRORR==" + error)
                 }
 
 
