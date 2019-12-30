@@ -142,10 +142,10 @@ class PhonicPlayerView : RelativeLayout {
      */
     fun init(context: Context?) {
 
-        val config = PRDownloaderConfig.newBuilder()
-            .setDatabaseEnabled(true)
-            .build()
-        PRDownloader.initialize(context, config)
+//        val config = PRDownloaderConfig.newBuilder()
+//            .setDatabaseEnabled(true)
+//            .build()
+//        PRDownloader.initialize(context, config)
 
         mContext = context
         playerRootView = View.inflate(context, customLayout, this)
