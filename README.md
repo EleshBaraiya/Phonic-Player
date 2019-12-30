@@ -16,3 +16,4 @@ Add the dependency
 	        implementation 'com.github.EleshBaraiya:Phonic-Player:Tag'
 	}
 	
+[![](https://jitpack.io/v/EleshBaraiya/Phonic-Player.svg)](https://jitpack.io/#EleshBaraiya/Phonic-Player)
